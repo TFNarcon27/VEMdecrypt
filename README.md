@@ -1,0 +1,63 @@
+# VEMdecrypt
+AES-256 Decryption code specifically for ciphertext found in The Familiar Volume 4
+https://www.reddit.com/r/books/comments/3so9mx/mark_z_danielewski_here_author_of_house_of_leaves/cwyzap5/
+
+VEM stands for XXXXXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXXXX XXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXXXX XXXX XXXX XXX
+
+
+“aes 256”
+Blocksize 16
+Mode CFB
+Key: SHA256(passphrase)
+Encoded message Format: “base64(iv+cipher text)”
+
+TF4 P602,603
+
+Passphrase: VEM
+
+DiOOSN7FuA7IXRUBlGzC2q/eB8vNndyrIYLlsTGcfIjx9dN5FubhV3NwtJVIEkDYPJ7AU/443bfwbb9xzcFiAKOhqB5XQFM+l3zU9/ztPGmMDtK1oydWEQiwjMUmWBgYy8BatpWch7dutGRgAS0KKUxID2G0N8sB0tGhZQHl
+
+National Park Service Museum and Visitor Center
+Baltimore Pike
+Gettysburg, PA 17325
+
+39.811663, -77.225647
+
+
+Passphrase: esse quam videri
+
+E/D01z1gQBPWACDsP0eR752re3HAxsNWLcnLXa9Mj9vt050WcaBTs0UUiyVF+oUCydUBM3zusDR+dtJ0B0ONxIL2rAzYQ8OA//oQq2lLtzgdz+FuqTzHqZQCQzRsA4RrqVEqO3GE9lu0loKWJg==
+
+Lincoln Memorial
+2 Lincoln Memorial Circle NW
+Washington, DC 20037
+
+38.889273, -77.050090
+
+
+Passphrase: sipaapuni
+
+dALUKK7nUm91W2y5zjEjJOXZ57pjtHusb3S8tStLT7cuXu+KNHw57AXFJt940SqOewI6rCPXoDx1Mn9qTXTnxEpw6Vc+GkDwA3eeCNsumqVlGG69q1PJoDnKOg7VvpMc
+
+Fonts Point
+Anza-Borrego Desert State Park California
+
+33.256797, -116.233124
+
+
+Passphrase: Let the outcome prove the side.
+
+nQ3Uz8K5B4ns2e3UOJVHRan9+fKia/bJsoneV9U5TkEnQuN4ZGHJ5t605yos7H8LHQq7g8+9GcNoHT+tgU0B/DP68Q4cB4cnlX/8r2qbPxn0ey9cIBRat5uIxZIVILLntj8=
+
+McClean House
+113 National Park Dr
+Appomattox, VA 24522
+
+37.377118, -78.797171
+
+
+TF4 p 790
+
+Passphrase: unknown
+
+FzQrKozegTl/0PdIb2vMTC7hn1jZRfAToH4qtgvN2voqnZlVBtUZ+T32eD56lammEDRCg9/eM50OAzsrgEsqJ3ZGH7Kz/AF+wLvgds+B4i8Yf+y1VHYMyoLQu+2un10mDR/A7ms7NKTd6Q==
