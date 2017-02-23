@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['decryptvemexe.py'],
+a = Analysis(['decryptvem_full.py'],
              pathex=['C:\\Users\\Zack\\Desktop\\misc\\VEMDecrypt'],
              binaries=[],
              datas=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='decryptvemexe',
+          name='decryptvem_full',
           debug=False,
           strip=False,
           upx=True,

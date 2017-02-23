@@ -1,10 +1,11 @@
 # Decrypt VEM codes, some information here:
 # https://www.reddit.com/r/TheFamiliar/comments/5vel7q/cracking_some_literal_codes_tf04_spoilers/
 # Built by /u/ellimist and /u/dradzanglor
-# make executable: pyinstaller.exe --onefile decryptvemexe.py
+# make executable: pyinstaller.exe --onefile decryptvem_full.py
 
-print "Mark Z. Danielewski's The Familiar Volume 4 AES-encrypted codes\n"
-print "If using a passphrase list text file, create a .txt file in this directory titled phraselist.txt"
+print "\nMark Z. Danielewski's The Familiar Volume 4 AES-encrypted codes\n"
+print "If using a passphrase list file, create a .txt file in this directory"
+print "titled phraselist.txt with *one passphrase per line*"
 x = 1
 while x == 1:
 	from Crypto.Cipher import AES
